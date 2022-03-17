@@ -63,9 +63,9 @@ div > a {
 }
 main > img {
     width: 55%;
-    height: 300px;
+    height: 400px;
     background-color: coral;
-    float: right;
+    float: left;
     object-fit: contain;
     object-position: center;
 }
