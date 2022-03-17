@@ -15,9 +15,9 @@ body {
 body > header,
 body > main {
     display: inline-block;
-    background-color: khaki;
     width: 1000px; 
     margin-left: calc(50% - 500px);
+    margin-top: 20px;
 }
 header > img {
     float: left;
@@ -53,18 +53,29 @@ main > div {
     padding-right: 10%;
 }
 div > h1 {
-
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: normal;
+}
+h1 > span {
+    color: coral;
 }
 div > p {
+    margin-bottom: 25px;
 
 }
 div > a {
-    background-color: orange;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: coral;
+    border-radius: 5px;
 }
 main > img {
     width: 55%;
     height: 400px;
-    background-color: coral;
     float: left;
     object-fit: contain;
     object-position: center;
