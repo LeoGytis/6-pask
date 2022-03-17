@@ -1,3 +1,10 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
 
 body {
     background-color: azure;
@@ -5,39 +12,60 @@ body {
 
 }
 
-header,
-main {
+body > header,
+body > main {
     display: inline-block;
     background-color: khaki;
-    width: 800px; 
-    margin-left: calc(50% - 400px);
+    width: 1000px; 
+    margin-left: calc(50% - 500px);
 }
-img {
+header > img {
     float: left;
     height: 46px;
 }
-nav {
-    display: inline-block;
+header > nav {
+    float: left;
     margin-top: 13px;
-    margin-bottom: 13px;
 }
 
-a {
+nav > a {
     display: inline-block;
     font-size: 18px;
     line-height: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-decoration: none;
     color: black;
 }
-a:hover {
+nav > a:hover {
     color: red;
     text-decoration: underline;
 }
-a:first-child {
+nav > a:first-child {
     color: black;
     text-decoration: underline;
 }
-main {
+body > main {
     margin-top: 100px;
+}
+main > div {
+    width: 45%;
+    float: left;
+    padding-right: 10%;
+}
+div > h1 {
+
+}
+div > p {
+
+}
+div > a {
+    background-color: orange;
+}
+main > img {
+    width: 55%;
+    height: 300px;
+    background-color: coral;
+    float: right;
+    object-fit: contain;
+    object-position: center;
 }
