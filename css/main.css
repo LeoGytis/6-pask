@@ -15,7 +15,7 @@ body {
 body > header,
 body > main {
     display: inline-block;
-    width: 1000px; 
+    width: 700px; 
     margin-left: calc(50% - 500px);
     margin-top: 20px;
 }
@@ -24,7 +24,7 @@ header > img {
     height: 46px;
 }
 header > nav {
-    float: left;
+    float: right;
     margin-top: 13px;
 }
 
@@ -32,7 +32,7 @@ nav > a {
     display: inline-block;
     font-size: 18px;
     line-height: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
     color: black;
 }
@@ -66,12 +66,13 @@ div > p {
 }
 div > a {
     padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
     text-decoration: none;
     background-color: coral;
-    border-radius: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 main > img {
     width: 55%;
